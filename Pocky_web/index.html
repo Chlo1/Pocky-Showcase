@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pocky</title>
+  </head>
+  <body>
+    <div id="main">
+      <nav>
+        <a href="#"
+          ><img src="../Pocky_web/Assets/LOGO.png" class="Logo" alt=""
+        /></a>
+        <div class="center-nav">
+          <a href="#">HOME</a>
+          <a href="#aboutPage">ABOUT</a>
+          <a href="#productsPage">PRODUCTS</a>
+          <!-- <a href="#">CONTACT</a> -->
+        </div>
+        <i class="ri-menu-fill"></i>
+      </nav>
+      <!-- 1.HERO -->
+      <section class="hero">
+        <div class="hero_container">
+          <h1>POCKY</h1>
+          <img
+            id="hero_chocolate"
+            src="../Pocky_web/Assets/Chocolate.png"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="chocoSwirl"
+            src="../Pocky_web/Assets/chocoSwirl.png"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="chocoBlocks"
+            src="../Pocky_web/Assets/chocoBlocks.png"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="choco-top"
+            src="../Pocky_web/Assets/choco.png"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="choco-btm"
+            src="../Pocky_web/Assets/choco_btm.png"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="chocoSmall-btm"
+            src="../Pocky_web/Assets/chocoSmall.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </section>
+
+      <!-- 2.INTRO -->
+      <section class="intro" id="aboutPage">
+        <div class="intro_container">
+          <div class="intro_img">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#E18D9A"
+                d="M52.9,-41.5C55.6,-26,35.7,-8.4,23.2,14.4C10.6,37.3,5.3,65.4,-6.6,69.2C-18.4,73,-36.8,52.5,-46.9,31C-57.1,9.6,-58.9,-12.7,-49.6,-32C-40.4,-51.3,-20.2,-67.5,2.5,-69C25.1,-70.4,50.3,-57,52.9,-41.5Z"
+                transform="translate(100 100)"
+              />
+            </svg>
+          </div>
+          <div class="intro_text">
+            <h1>Find a Flavor</h1>
+            <p>
+              Pocky is about sharing happiness with friends, family, coworkers –
+              anyone, anytime, anywhere! Just open a box, pass it around, and
+              watch the smiles and happiness spread.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 3.PRODUCTS -->
+      <section class="products" id="productsPage">
+        <div class="products_info">
+          <div class="card">
+            <img
+              src="../Pocky_web/Assets/pocky_sberry.png"
+              alt=""
+              class="card_pockyBG pocky_sberry"
+            />
+            <img
+              class="card_img"
+              id="strawberry"
+              src="../Pocky_web/Assets/Strawberry.png"
+              alt=""
+            />
+            <h1>Strawberry</h1>
+            <button class="card_btn">Buy Now</button>
+          </div>
+          <div class="card">
+            <img
+              src="../Pocky_web/Assets/pocky_choco.png"
+              alt=""
+              class="card_pockyBG pocky_choco"
+            />
+
+            <h1>Chocolate</h1>
+            <button class="card_btn">Buy Now</button>
+          </div>
+          <div class="card">
+            <img
+              src="../Pocky_web/Assets/pocky_matcha.png"
+              alt=""
+              class="card_pockyBG pocky_matcha"
+            />
+            <img
+              class="card_img"
+              id="matcha"
+              src="../Pocky_web/Assets/Matcha.png"
+              alt=""
+            />
+            <h1>Matcha</h1>
+            <button class="card_btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
